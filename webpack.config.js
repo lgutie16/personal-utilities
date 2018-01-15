@@ -7,6 +7,8 @@ const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
     inject: 'body'
 })
 
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+
 module.exports = {
     entry: './client/index.js',
     output: {
@@ -19,5 +21,5 @@ module.exports = {
             {test: /\.jsx$/, loader: 'babel-loader', exclude: /node_modules/}
         ]
     },
-    plugins: [HtmlWebpackPluginConfig]
+    plugins: [HtmlWebpackPluginConfig, new BundleAnalyzerPlugin()]
 }
