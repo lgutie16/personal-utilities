@@ -1,0 +1,25 @@
+{
+  "name": "personal-utilities",
+  "version": "1.0.0",
+  "description": "It's an app to help me in the process of learning new things daily. New things can be english grammar and vocabulary, general knowledge or whatever I want to learn, by connections to different APIs\"",
+  "main": "index.js",
+  "author": "Linda Gutierrez Montoya",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^2.30.1",
+    "path": "^0.12.7",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  }
+}
