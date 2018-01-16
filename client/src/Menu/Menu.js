@@ -1,6 +1,7 @@
 import React from 'react'
 
 const name = props => {
-    return()
+    return{}
 }
+
 export default name

@@ -1,6 +1,3 @@
-import React from 'react'
+import Menu from './name'
 
-const name = props => {
-    return()
-}
 export default name
