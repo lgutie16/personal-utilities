@@ -1,7 +1,7 @@
 import React from 'react'
 
-const name = props => {
+const Menu = props => {
     return{}
 }
 
-export default name
+export default Menu

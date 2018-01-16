@@ -32,6 +32,12 @@ module.exports = function (plop) {
 			path: 'client/src/{{ properCase name}}/{{ properCase name}}.js',
 			pattern: /\bname/g,
 			template: '{{ properCase name}}'
+		},
+		{
+			type: 'modify',
+			path: 'client/src/{{ properCase name}}/{{ properCase name}}.test.js',
+			pattern: /\bname/g,
+			template: '{{ properCase name}}'
 		}
 		]
 	});

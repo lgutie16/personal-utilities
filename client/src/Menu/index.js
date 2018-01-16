@@ -1,3 +1,3 @@
-import Menu from './name'
+import Menu from './Menu'
 
-export default name
+export default Menu
