@@ -1,13 +1,13 @@
 import React, {Component} from 'react'
+import {BrowserRouter} from 'react-router-dom'
+import { PrimaryLayout } from './Layouts'
 
-class App extends Component {
-    render(){
+const App = () => {
         return (
-            <div>
-                <h1>Hello Linda app</h1>
-            </div>
+            <BrowserRouter>
+                <PrimaryLayout />
+            </BrowserRouter>
         )
-    }
 }
 
 export default App
