@@ -1,12 +1,11 @@
 import React from 'react'
-import expect from 'expect'
-import { mount, shallow } from 'enzyme'
-import TestUtils from 'react-addons-test-utils'
+//import expect from 'expect'
+//import { mount, shallow } from 'enzyme'
+//import TestUtils from 'react-addons-test-utils'
+import ReactDOM from 'react-dom'
 import Menu from './Menu'
 
-describe(' Menu should render: ', ()=>{
-    it(' Menu is rendering', () =>{
-        //Test stuff
-        //expect(/**/).toBe(/**/)
-    })
+test('render a without crashing', ()=>{
+   const div = document.createElement('div')
+   ReactDOM.render(<Menu />, div)
 })
