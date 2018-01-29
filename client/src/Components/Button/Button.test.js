@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import name from './name'
+import Button from './Button'
 
-describe(' name should render: ', ()=>{
-    it(' name is rendering', () =>{
+describe(' Button should render: ', ()=>{
+    it(' Button is rendering', () =>{
         //Test stuff
         //expect(/**/).toBe(/**/)
     })

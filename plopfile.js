@@ -9,33 +9,33 @@ module.exports = function (plop) {
 		}],
 		actions: [{
 			type: 'add',
-			path: 'client/src/{{ properCase name}}/{{ properCase name}}.js',
+			path: 'client/src/Components/{{ properCase name}}/{{ properCase name}}.js',
 			templateFile: 'plop-templates/component.hbs'
 		},{
 			type: 'add',
-			path: 'client/src/{{ properCase name}}/{{ properCase name}}.test.js',
+			path: 'client/src/Components/{{ properCase name}}/{{ properCase name}}.test.js',
 			templateFile: 'plop-templates/test.hbs'
 		},
 		{
 			type: 'add',
-			path: 'client/src/{{ properCase name}}/index.js',
+			path: 'client/src/Components/{{ properCase name}}/index.js',
 			templateFile: 'plop-templates/index.hbs'
 		},
 		{
 			type: 'modify',
-			path: 'client/src/{{ properCase name}}/index.js',
+			path: 'client/src/Components/{{ properCase name}}/index.js',
 			pattern: /\bname/g,
 			template: '{{ properCase name}}'
 		},
 		{
 			type: 'modify',
-			path: 'client/src/{{ properCase name}}/{{ properCase name}}.js',
+			path: 'client/src/Components/{{ properCase name}}/{{ properCase name}}.js',
 			pattern: /\bname/g,
 			template: '{{ properCase name}}'
 		},
 		{
 			type: 'modify',
-			path: 'client/src/{{ properCase name}}/{{ properCase name}}.test.js',
+			path: 'client/src/Components/{{ properCase name}}/{{ properCase name}}.test.js',
 			pattern: /\bname/g,
 			template: '{{ properCase name}}'
 		}
