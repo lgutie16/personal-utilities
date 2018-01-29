@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`button show right text 1`] = `
+<button
+  name="button-click"
+  onClick={[Function]}
+  value="button text"
+>
+  button text
+</button>
+`;

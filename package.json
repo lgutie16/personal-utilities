@@ -16,7 +16,7 @@
     "setupFiles": [
       "./test/testSetup.js"
     ],
-    "snapshotSerializer": [
+    "snapshotSerializers": [
       "enzyme-to-json/serializer"
     ],
     "moduleNameMapper": {

@@ -11,7 +11,7 @@ const PrimaryLayout = props => {
             Router V4
         </header>
         <main>
-            <Route path='/' exact component={example} />
+            <Route path='/' exact component={Menu} />
             <Route path='/example' component={Menu} />
         </main>
     </div>
